@@ -146,11 +146,11 @@ h5{
 }
 
 .header_title h4{
-  font-size: 24px;
-  font-family: 'Noto Sans', sans-serif;
-  letter-spacing: 3px;
-  margin-top: 3%;
-  font-weight: bold;
+    font-size: 27px;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 5%;
+    font-weight: 500;
 }
 
 .header_title a{
