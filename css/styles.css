@@ -126,17 +126,17 @@ h5{
 
 /*header title styled*/
 .header_title {
-  background-image: url("../images/title_bg.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 62%;
-  background-height:auto;
-  color: white;
-  flex:2;
-  text-align: center;
-  padding-top: 150px;
-  padding-bottom: 200px;
-  margin-top: 3%;
+    background-image: url(../images/title_bg.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-height: auto;
+    color: white;
+    flex: 2;
+    text-align: center;
+    padding-top: 136px;
+    padding-bottom: 200px;
+    margin-top: 3%;
 }
 
 /*header title inner content aligned*/
