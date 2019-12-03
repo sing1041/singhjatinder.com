@@ -145,12 +145,12 @@ h5{
   margin-right: 36%;
 }
 
-.header_title h4{
-  font-size: 24px;
-  font-family: 'Noto Sans', sans-serif;
-  letter-spacing: 3px;
-  margin-top: 3%;
-  font-weight: bold;
+.header_title h4 {
+    font-size: 23px;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 6%;
+    font-weight: bold;
 }
 
 .header_title a{
@@ -1331,7 +1331,7 @@ height: 100%;
   }
 
   .header_title h4{
-    margin-top: -60%;
+    margin-top: -83%;
     margin-left: -55%;
   }
   .header_title p{
