@@ -1231,6 +1231,8 @@ height: 100%;
     margin-left: 9%;
     margin-top: 27vh;
   }
+	
+	
   .three_d_content h1 {
     padding: 10px 0px 10px 25px;
     font-size: 44px;
@@ -1275,6 +1277,9 @@ height: 100%;
     margin: auto;
     position: relative;
    
+  }
+  .three_d_design{
+    margin-top: 46vh;
   }
 
 }
