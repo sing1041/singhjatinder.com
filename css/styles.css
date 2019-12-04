@@ -1148,17 +1148,70 @@ height: 100%;
   background-color: #555; 
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
-  .header_image img {
-    max-width: 88%;
-    margin-left: 20%;
-    margin-top: 34%;
+.header_title_mobile{
+  visibility: hidden;
+}
+
+@media (max-width: 979px){
+    .header {
+      flex-direction: column;
+      align-items: center;
+    
+    }
+    .header_title{
+      display: none;
+    }
+    .header_title_mobile{
+      visibility: visible;
+      text-align: center;
+      color: white;
+    }
+
+    .header_title_mobile h4 {
+      font-size: 26px;
+      font-family: 'Noto Sans', sans-serif;
+      letter-spacing: 3px;
+      font-weight: bold;
   }
 
-  .header_title {
-    background-size: 0;
-    margin-top: 13%;
+  .header_title_mobile a{
+    padding: 10px;
+    background-color: #F27d42;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
   }
+
+  .header_title_mobile a:hover{
+    box-shadow: 3px 3px 3px 0 rgba(.1,.1,.1,.1);
+  }
+
+
+  .header_title_mobile p{
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+ 
+  .header_image img {
+      max-width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-top: 10vh;
+      animation-name: glowup;
+      animation-duration: 4.5s;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  
+
+
+
   .nav {
     margin-right: 8.5vw;
   }
@@ -1212,7 +1265,19 @@ height: 100%;
   .motion h6 {
     margin-top: 0%;
   }
+  .scroll {
+    display: flex;
+    margin: auto;
+  }
+
+  .scroll img {
+    margin: auto;
+    position: relative;
+   
+  }
+
 }
+
 
 
 @media(max-width: 767px){
@@ -1229,8 +1294,8 @@ height: 100%;
 
   #resume img{
     margin-top: 700px;
-    margin-left: 633px;
-    max-width: 83vw;
+    margin-left: 648px;
+    max-width: 95vw;
   }
 
 
@@ -1316,33 +1381,7 @@ height: 100%;
     max-width: 140%;
   }
 
-  .header_image img{
-    max-width: 70%;
-    margin-left: 15vw;
 
-  }
-
-  .header_title{
-    background-size: 0%;
-    margin-top: 80vh;
-    margin-left: -53vw;
-    z-index: 2;
-
-  }
-
-  .header_title h4{
-    margin-top: -83%;
-    margin-left: -55%;
-  }
-  .header_title p{
-    margin-left: -57%;
-  }
-
-  .header_title a{
-    margin-left: -62%;
-    padding: 15px;
-    font-size: 15px;
-  }
 
   .resumeBtn{
     margin-top: -1vh;
