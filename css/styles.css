@@ -1172,6 +1172,7 @@ height: 100%;
       font-family: 'Noto Sans', sans-serif;
       letter-spacing: 3px;
       font-weight: bold;
+      z-index: 99;
   }
 
   .header_title_mobile a{
