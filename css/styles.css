@@ -111,9 +111,9 @@ h5{
 }
 
 .header_image img{
-  max-width: 55%;
+  max-width: 66%;
   height: auto;
-  margin-left: 38%;
+  margin-left: 33%;
   margin-top: 8%;
   animation-name: glowup;
   animation-duration: 4.5s;
@@ -136,7 +136,7 @@ h5{
   text-align: center;
   padding-top: 150px;
   padding-bottom: 200px;
-  margin-top: 3%;
+  margin-top: 1.5%;
 }
 
 /*header title inner content aligned*/
