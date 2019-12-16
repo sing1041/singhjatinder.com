@@ -15,9 +15,11 @@ hamburger.addEventListener("click", () => {
 	});
 });
 
+
+
 $(document).on('click', '.navClick', function (event) {
     event.preventDefault();
-
+    $(document).find(".nav-links").removeClass('open');
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 1000);
@@ -113,3 +115,6 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
+
+      
+
