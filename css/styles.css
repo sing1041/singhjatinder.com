@@ -95,6 +95,11 @@ h5{
   max-width: 10%;
   margin-left:5%;
 }
+.port_dropdown span{
+   font-size: 14px;
+   margin-left: 2px;
+   margin-bottom: 2px;
+ }
 
 
 /*Header styling starts */
