@@ -77,7 +77,7 @@ h5{
 
 /*Navbar styled*/
 .navbar{
-	display: flex;
+  display: flex;
   align-items: center;
   padding: 1% 0% 1% 0%;
   background-color: #ffffff00;
@@ -829,7 +829,20 @@ p.download_suggestion{
   color: grey;
 }
 
+.illustration_cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.face_illustration img{
+  max-width: 60vh;
+  margin-left: 10%;
+}
+
+.illustration_title{
+  margin-right: 10%;
+}
 
 
 
@@ -966,15 +979,21 @@ p.download_suggestion{
   background-color: #f7f7f7;
 }
 
-.graphic_division{
+.illustration_division{
   border-top-color: rgb(123, 160, 178);
-  background-color:#f7f7f7;
+  background-color: white;
+}
+
+.graphic_division{
+  border-bottom-color: rgb(247, 247, 247);
+  background-color: white;
 }
 
 .logo_division{
-  border-bottom-color:white;
-  background-color:rgb(247, 247, 247);
+  border-top-color:rgb(247, 247, 247);
+  background-color:white;
 }
+
 
 .motion_division{
   background-color: #f7f7f7;
@@ -992,8 +1011,8 @@ p.download_suggestion{
 }
 
 .design_footer_division{
-  background-color: #253a49;
-  border-top-color: rgb(255, 255, 255);
+  background-color: white;
+  border-bottom-color: #253a49;
 }
 
 .home_footer_division{
@@ -1236,8 +1255,8 @@ height: 100%;
     margin-left: 9%;
     margin-top: 27vh;
   }
-	
-	
+  
+  
   .three_d_content h1 {
     padding: 10px 0px 10px 25px;
     font-size: 44px;
@@ -1459,11 +1478,16 @@ height: 100%;
 
 
   /*Design page customisation starts here*/
-
+  .illustration_cover,
   .motion_nature,
   .motion_cover,
   .three_d_cover{
     flex-direction: column;
+  }
+
+  .illustration_title,
+  .illustration_cover img{
+    margin: 0;
   }
 
   .three_d_web img {
