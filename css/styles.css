@@ -1639,6 +1639,10 @@ height: 100%;
     margin-left: 3vw;
   }
 
+  .face_illustration img {
+    max-width: 50vh;
+  }
+
   .scroll{
     display: none;
   }
