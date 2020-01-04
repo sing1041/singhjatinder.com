@@ -1250,7 +1250,10 @@ height: 100%;
 
 @media (min-width: 768px) and (max-width: 979px) {
   
-
+  #resume {
+    top: 170px;
+    width: 94vw;
+  }
 
 
   .nav {
@@ -1271,16 +1274,17 @@ height: 100%;
     margin-left: 9%;
     margin-top: 27vh;
   }
-  
-  
+
+  .face_illustration img {
+    max-width: 38vh;
+    /* margin-left: 10%; */
+  }
+   
   .three_d_content h1 {
     padding: 10px 0px 10px 25px;
     font-size: 44px;
     animation-duration: 0.9s;
 
-  }
-  .resume_desktop{
-    display: none;
   }
 
   .scroller_mobile_cover,
@@ -1514,7 +1518,7 @@ height: 100%;
 
 
   .three_d_web img{
-  max-width: 150%;
+  max-width: 140%;
   margin-top: 51%;
   animation-name: ux_image;
   animation-duration: 2s;
@@ -1522,8 +1526,8 @@ height: 100%;
 
   /* image animation*/
   @keyframes ux_image{
-    0%   {max-width: 160% ; left:0px; top:0px;}
-    100% {max-width: 150% ; left:0px; top:0px;}
+    0%   {max-width: 145% ; left:0px; top:0px;}
+    100% {max-width: 140% ; left:0px; top:0px;}
   }
 
   .three_d_content h1{
@@ -1533,8 +1537,11 @@ height: 100%;
     margin-top: -30vh;
     margin-left: 44px;
     font-size: 30px;
+    background-color: transparent;
 
   }
+
+
 
   /* splash content animation*/
   @keyframes design_heading{
@@ -1633,7 +1640,7 @@ height: 100%;
   }
 
   .scroll{
-    margin-left: -10px;
+    display: none;
   }
 
   .scroller_mobile_cover,
