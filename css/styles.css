@@ -601,6 +601,22 @@ footer{
   font-size: 20px;
 }
 
+
+.scroll_request{
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+}
+
+p.scroll_request {
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 80px;
+    text-align: center;
+    color: #767676;
+}
+
+
 .scroller_mobile_cover{
   flex: 0;
   margin: 4% 1% 1% 0%;
@@ -612,7 +628,7 @@ footer{
 
 .scroller_mobile_image{
   height: 500px;
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
   background-color: black;
 }
@@ -628,7 +644,7 @@ footer{
 
 .work_content_scroller {
   height: 500px;
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
   background-color: black;
 }
@@ -1623,6 +1639,11 @@ height: 100%;
   .scroller_mobile_cover,
   .code_mobile{
     display: none;
+  }
+
+  p.scroll_request {
+    margin-top: 415px;
+    
   }
 
 
