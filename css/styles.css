@@ -19,6 +19,10 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+strong {
+    font-weight: bold;
+}
+
 /*****************STYLING STARTS***********************/
 
 @import url('https://fonts.googleapis.com/css?Cabin:700|Rubik:700|Literata|Open+Sans+Condensed:300|Open+Sans:800|Didact+Gothic|Noto+Sans|family=Raleway|Noto+Sans+KR:700|Titillium+Web&display=swap');
