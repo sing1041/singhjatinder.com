@@ -615,7 +615,10 @@ p.scroll_request {
     font-family: 'Noto Sans', sans-serif;
     margin-top: 80px;
     text-align: center;
-    color: #767676;
+    color: #ffffff;
+    padding: 4px;
+    background-color: #acacac;
+    border-radius: 12px;
 }
 
 
