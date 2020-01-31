@@ -1052,6 +1052,7 @@ p.download_suggestion{
   position: absolute;
   margin-top: -10vh;
   animation: scroll 2s linear 0s infinite alternate;
+  z-index: 999;
 }
 
 /* /* splash content animation*/
