@@ -25,7 +25,7 @@ strong {
 
 /*****************STYLING STARTS***********************/
 
-@import url('https://fonts.googleapis.com/css?Cabin:700|Rubik:700|Literata|Open+Sans+Condensed:300|Rozha+One|Open+Sans:800|Didact+Gothic|Noto+Sans|family=Raleway|Noto+Sans+KR:700|Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?Cabin:700|Rubik:700|Literata|Open+Sans+Condensed:300|Rozha+One|Open+Sans:800|Didact+Gothic|Noto+Sans|family=Raleway:300|Noto+Sans+KR:700|Titillium+Web&display=swap');
 
 body{
   background-color: white;
@@ -155,11 +155,9 @@ h5{
 }
 
 .header_title h4 {
-    font-size: 23px;
+    font-size: 33px;
     font-family: 'Noto Sans', sans-serif;
-    letter-spacing: 3px;
     margin-top: 6%;
-    font-weight: bold;
 }
 
 .header_title a{
