@@ -560,12 +560,12 @@ footer{
 }
 
 .work_content_wrapper{
-  background-color: #f7f7f7;
   padding:10vh 0vh 10vh 0vh;
 }
 
 .work_content{
   display: flex;
+  padding: 0 50px;
 }
 
 .redesign_title{
@@ -726,12 +726,11 @@ p.scroll_request {
 }
 
 
-.work_graphic{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: #ffda3a;
-  }
+.work_graphic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 
 
@@ -854,15 +853,25 @@ p.download_suggestion{
   align-items: center;
 }
 
-.face_illustration img{
-  max-width: 60vh;
-  margin-left: 10%;
+
+.face_illustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 40px 0px;
 }
 
-.illustration_title{
-  margin-right: 10%;
+img.illustration {
+    max-height: 55vh;
+    margin: 40px;
+    background-color: #ffffff75;
+    box-shadow: 5px 5px 12px 0 rgba(0,0,0,.1);
+    padding: 7px;
 }
 
+.lb-data .lb-details {
+    display: none;
+}
 
 
 /*************motion page starts here*****************/
@@ -985,7 +994,7 @@ p.download_suggestion{
   border-top-color: rgb(56, 236, 186);
   border-left: 25vw solid transparent;
   border-right: 75vw solid transparent;
-  background-color: #f7f7f7;
+
 }
 
 .division_triangle_up{
@@ -995,7 +1004,7 @@ p.download_suggestion{
   border-bottom-color: rgb(123, 160, 178);
   border-left: 75vw solid transparent;
   border-right: 25vw solid transparent;
-  background-color: #f7f7f7;
+  
 }
 
 .illustration_division{
@@ -1045,6 +1054,11 @@ p.download_suggestion{
 .web_footer,
 .motion_footer{
   border-bottom-color: #253a49;
+
+}
+
+.motion_footer{
+  background-color: #f7f7f7;
 }
 
 .scroll img{
@@ -1556,6 +1570,7 @@ height: 100%;
   .work_content {
   flex-direction: column;
   justify-content: center;
+
   }
 
   .scroller_mobile_cover{
