@@ -1444,9 +1444,8 @@ height: 100%;
 
   .face_illustration{
     flex-direction:column;
-    margin: 0;
-    max-width: 80vw;
   }
+  
   .header{
     flex-direction: column;
     justify-content: center;
@@ -1665,7 +1664,7 @@ height: 100%;
   }
 
   .face_illustration img {
-    max-width: 50vh;
+    max-width: 80vw;
   }
 
   .scroll{
