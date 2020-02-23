@@ -1292,6 +1292,9 @@ height: 100%;
     margin-left: 9%;
     margin-top: 27vh;
   }
+  
+  .face_illustration{
+    flex-direction: column;
 
   .face_illustration img {
     max-width: 38vh;
