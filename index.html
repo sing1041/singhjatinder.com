@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Jatinder Singh</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.svg">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/be8c9465ff.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <style>
+
+span {
+    color: #858585;
+}
+
+/*     body, html {
+    overflow: hidden
+    } */
+
+        /* width */
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: linear-gradient(135deg, var(--mktg-accent-primary) 0%, var(--mktg-accent-secondary) 100%);
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(135deg, #93f5ec 0%, #a77bf3 100%);
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(135deg, var(--mktg-accent-primary) 0%, var(--mktg-accent-secondary) 100%);
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .bg{
+        position: absolute;
+        width: 130%;
+        height: 130%;
+        transform: skew(-10deg);
+        left: -18%;
+        top: -18%;
+    }
+
+    body{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    main{
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+    }
+
+    .cover {
+        position: relative;
+    }
+    
+
+ 
+
+    .tiles-upper{
+        justify-content: center;
+        align-items: center;
+
+    }
+
+/*     .tiles-lower{
+        margin-left: -62px;
+    }
+ */
+    
+    .tile{
+        
+        width: 241px;
+/*         height: 176px; */
+        position: relative;
+     /*    background-image: url("assets/img/thumbnails/cham-mobile.png");
+        background-size: cover; */
+    }
+
+    .tiles-outer{
+        position: relative;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+
+    .scrollable a{
+        box-shadow: 10px 8px 10px 5px transparent;
+        transition: 0.4s;
+    }
+
+    .scrollable a:hover{
+        box-shadow: 0px 0px 20px 4px #93F5EC;
+        cursor: pointer;
+        
+
+    }
+
+    .tiles-outer::before{
+        content: 'DESIGN';
+        transform: rotate(-80deg);
+        color: #878787;
+        position: absolute;
+        left: 1px;
+        top: 29px;
+        z-index: 99;
+        font-weight: 900;
+
+    }
+
+
+    .tile-logo{
+        width: 190px;
+        margin-bottom: 32px;
+        margin-right: 30px;
+    }
+
+    .tile:before {
+        display: block;
+        width: 207px;
+        height: 142px;
+        background: transparent;
+        border: 8px solid #EFEFEF;
+        content: '';
+        position: absolute;
+        transform: skew(-10deg);
+        border-left-width: 25px;
+    }
+
+    .mobile-tile{
+        display: none;
+    }
+
+    .tile img {
+        width: 103%;
+        margin-left: -7px;
+    }
+
+    .tile-discription{
+        background-color: #efefef;
+        margin-left: -42px;
+        height: 141px;
+    }
+
+    .tile-discription h4{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .tools-used,
+    .tile-discription p{
+        padding-left: 2rem;
+        color: black;
+        font-family: 'Lora', serif;
+    }
+
+    i {
+        font-size: 1.rem;
+    }
+
+/*     .tile-discription::before{
+        display: block;
+        background-color: #efefef;
+        margin-left: -49px;
+        height: 142px;
+        width: 100%;
+        content: '';
+        position: absolute;
+        transform: skew(-10deg);
+    }
+ */
+    .logo{
+        width: auto;
+        margin-right:6rem;
+    }
+
+   /*  .logo img{
+        height: 226px;
+    }
+ */
+    .scrollable{
+        width: ;
+        height: 500px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        transform: skew(-10deg);
+        padding:0;
+        position: relative;
+    }
+
+    div.scrollable > * {
+        transform: skew(10deg);
+    }
+    
+    .tiles-outer{
+        transform: skew(10deg);
+    }
+
+    .gradient-cover::before {
+        content: '';
+        position: absolute;
+        top: 0; 
+        height: 40px;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to top, transparent 0%, white 100%);
+        z-index: 999;
+    }
+
+    .gradient-cover::after {
+        content: '';
+        position: absolute;
+        /* top: 0; */
+        height: 40px;
+        left: 0;
+        right: 0;
+        bottom: -11px;
+        background: linear-gradient(to bottom, transparent 0%, white 100%);
+    }
+
+
+   
+
+    
+    @media (max-width: 767.98px) { 
+        .logo{
+            margin-right: 0;
+            width: 51%;
+        }
+        .gradient-cover::before{
+            display: none;
+        }
+
+        .top-tile ::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            height: 40px;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, transparent 0%, white 100%);
+            z-index: 999;
+        }
+    }
+    
+    
+    
+
+    @media (max-width: 991.98px) { 
+
+        .scrollable {
+            width: ;
+            height: 400px;
+        }
+
+        .logo{
+            margin-right: 0;
+            margin-bottom: 71px;
+        }
+
+        .tile{
+            width: 150px;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        .tile:before {
+            width: 128px;
+            height: 85px;
+            border: 6px solid #EFEFEF;
+            border-left-width: 15px;
+        }
+
+        .tiles-outer::before{
+            font-size: 10px;
+            left: -14px;
+        }
+
+        .tile-discription {
+            height: 86px;
+            margin-top: 4px;
+        }
+
+        .tile-discription h4 {
+            padding-top: 0.5rem;
+            padding-left: 1.5rem;
+            font-size: 15px;
+        }
+
+        .tile-discription p {
+            padding-left: 1.5rem;
+            font-size: 11px;
+        }
+
+        .gradient-cover::before {
+  
+/*             top: 204px;
+ */        }
+
+        .tiles-outer {
+            margin-bottom: 1px;
+        }
+     }
+
+
+
+     @media (max-width: 1199.98px) {
+          
+    } 
+  </style>
+   
+</head>
+<body scroll="no" style="/* height: 100%;  overflow: hidden */">
+         <main>
+
+                <div class="row gradient-cover justify-content-center align-items-center">
+                    <div style="transform: skew(0deg); background-color: transparent;" class="col-3 col-lg-2 col-md-2 col-sm-4 logo">
+                        <img src="assets/img/logo.svg">
+                    </div>
+                    <div class="col-8 col-lg-5 col-md-5 col-sm-8 scrollable">
+                        <a href="https://vancouverhumanesociety.bc.ca/wp-content/uploads/2020/06/farmed-animal-resource.pdf" target="_blank" style="" class="tiles-outer tiles-lower row">
+                            <div class="tile tile-head col-3">
+                                <img style="" src="assets/img/thumbnails/vhs.png">
+
+                            </div>
+                            <div class="tile-discription col">
+                                <h4>Brochure Design | <span>Vancouver Humane Society</span></h4>
+                                <P>Designed and built User Interface.</P>
+                            </div>
+                        </a>
+                    
+                
+                        <a href="assets/portfolio/desktop_chameex.pdf" target="_blank" style="" class="tiles-outer tiles-lower row">
+                            <div class="tile tile-head col-3">
+                                <img style="" src="assets/img/thumbnails/cham-mobile.png">
+                            </div>
+                            <div class="tile-discription col">
+                                <h4>Web Design | <span> Chemeex - Desktop</span></h4>
+                                <P>Web Design from scratch, everything except Logo Icon.</P>
+                            </div>
+                        </a>
+
+                        <a href="assets/portfolio/mobile_chameex.pdf" target="_blank" style="" class="tiles-outer tiles-lower row">
+                            <div class="tile tile-head col-3">
+                                <img style="" src="assets/img/thumbnails/cham-mobile.png">
+
+                            </div>
+                            <div class="tile-discription col">
+                                <h4>Web Design | <span> Chemeex - Mobile</span></h4>
+                                <P>Web Design from scratch, everything except Logo Icon.</P>
+                                <div class="row tools-used">
+<!--                                     <i class="fa-brands fa-bootstrap"></i>
+ -->                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="assets/portfolio/desktop_block_miner.pdf" target="_blank" style="" class="tiles-outer tile-block tiles-lower row on-load">
+                            <div id="scroll" class="tile tile-head col-3">
+                                <img style="" src="assets/img/thumbnails/block-desktop.png">
+
+                            </div>
+                            <div class="tile-discription col">
+                                <h4>Web Design | <span> Blockminer Co</span></h4>
+                                <P>Web Design from scratch, everything including logo.</P>
+                            </div>
+                        </a>
+
+                      
+                        <a href="assets/portfolio/brochure.pdf" target="_blank" style="" class="tiles-outer tiles-lower row">
+                            <div class="tile tile-head col-3">
+                                <img style="" src="assets/img/thumbnails/ac.png">
+
+                            </div>
+                            <div class="tile-discription col">
+                                <h4>Brochure Design | <span> IMM - Algonquin College</span></h4>
+                                <P>Interactive Brochure for Interactive Media Management program</P>
+                            </div>
+                        </a>
+
+                        <a href="https://vancouverhumanesociety.bc.ca/wp-content/uploads/2020/05/wildlife-resource.pdf" target="_blank" style="" class="tiles-outer tiles-lower row">
+                            <div class="tile tile-head col-3">
+                                <img style="" src="assets/img/thumbnails/vhs.png">
+
+                            </div>
+                            <div class="tile-discription col">
+                                <h4>Brochure Design | <span>Vancouver Humane Society</span></h4>
+                                <P>Designed and built User Interface.</P>
+                            </div>
+                        </a>
+
+                        <a href="assets/portfolio/illustration.pdf" target="_blank" style="" class="tiles-outer tiles-lower row">
+                            <div class="tile tile-head col-3">
+                                <img style="" src="assets/img/thumbnails/illustration.png">
+
+                            </div>
+                            <div class="tile-discription col">
+                                <h4>Illustration Design | <span>Freelance</span></h4>
+                                <P></P>
+                            </div>
+                        </a>
+                        
+                        
+
+                        <div class="scroll-bottom">
+
+                        </div>
+
+                    </div>
+                </div>
+        </main>
+
+        
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+          // Handler for .ready() called.
+          $('html, body').animate({
+              scrollTop: $('#scroll').offset().top
+          }, 'slow');//w  w w.j a v a 2s.com
+        });
+        
+    </script> 
+       
+</body>
+</html>
